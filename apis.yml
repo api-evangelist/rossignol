@@ -1,8 +1,24 @@
 aid: rossignol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rossignol.png
 name: Rossignol
-description: 'Rossignol is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Rossignol is a French outdoor sports equipment and apparel manufacturer (Rossignol Group),
+  one of the world''s best-known makers of alpine skis, cross-country skis, snowboards, bindings, boots,
+  poles, helmets and goggles, alongside a growing range of apparel, footwear, mountain bikes and accessories.
+  Founded in Voiron, France, the company sells direct-to-consumer through localized e-commerce storefronts
+  across 40+ countries and regions. It was surfaced as a portfolio company of IDG Capital and added to the
+  API Evangelist network; this pass enriched it as a consumer brand with a public e-commerce presence but
+  no public developer, API, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/rossignol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Retail
+- E-Commerce
+- Sporting Goods
+- Outdoor
+- Apparel
+- Winter Sports
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://rossignol.com/
+- type: Support
+  url: https://www.rossignol.com/us-en/ls-contact-us.html
+- type: HelpCenter
+  url: https://www.rossignol.com/us-en/faq-page.html
+- type: Blog
+  url: https://www.rossignol.com/us-en/news/show
+- type: PrivacyPolicy
+  url: https://www.rossignol.com/us-en/ls-privacy-policy.html
+- type: TermsOfService
+  url: https://www.rossignol.com/us-en/ls-terms-conditions.html
+- type: DomainSecurity
+  url: security/rossignol-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
