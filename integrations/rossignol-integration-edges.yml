@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/rossignol/integrations
+- https://n8n.io/integrations/rossignol/
+- https://composio.dev/toolkits/rossignol
+- https://monid.ai/tools/rossignol
+checked:
+- https://composio.dev/toolkits/rossignol
+- https://monid.ai/tools/rossignol
+- https://n8n.io/integrations/rossignol/
+- https://zapier.com/apps/rossignol/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
